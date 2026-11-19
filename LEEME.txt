@@ -29,3 +29,9 @@ LOGOTIPO
 - Mantén logo-franvar.jpg en la misma carpeta que index.html para que aparezca en la web.
 
 LOGOTIPO: Se utiliza el recorte directo del emblema de la foto original, sin redibujarlo ni retocarlo. Mantén logo-franvar-original-foto.jpg junto a index.html.
+
+ACTUALIZACION VISUAL
+Esta version incorpora un encabezado con grafica industrial, detalles tecnicos de fondo,
+iconos ilustrativos en los servicios, tarjetas con efectos al pasar el cursor, una seccion
+de pasos de trabajo y un acceso flotante a WhatsApp. El logotipo original de la foto se
+mantiene como archivo separado y sin redibujarlo.
