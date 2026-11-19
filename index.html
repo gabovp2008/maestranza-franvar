@@ -17,20 +17,68 @@ section{padding:78px 0}.head{max-width:720px;margin-bottom:36px}.head h2{font-si
 .whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:8;background:#1fa855;color:white;padding:13px 18px;border-radius:999px;font-weight:700;box-shadow:0 8px 24px #0003;display:flex;align-items:center;gap:9px}.whatsapp-float:hover{transform:translateY(-3px);background:#168b45}.trust-strip{background:#142638;color:white;padding:20px 0}.trust-items{display:flex;justify-content:center;gap:35px;flex-wrap:wrap}.trust-items span{font-size:.9rem;font-weight:700;letter-spacing:.04em}.trust-items b{color:var(--orange);margin-right:7px}footer{background:#0d1c29;color:#bdc7ce;padding:24px 0;font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
 .location-map{margin-top:42px;background:#fff;border:1px solid #dce3e8;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px #14263812}.location-map-header{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;padding:24px 28px}.location-map-header h3{color:var(--navy);font-size:1.35rem;line-height:1.25}.location-map-header p{color:#657581;margin-top:4px}.map-links{display:flex;gap:10px;flex-wrap:wrap}.map-link{display:inline-block;padding:10px 16px;background:var(--navy);color:#fff;border-radius:4px;font-weight:700;font-size:.9rem}.map-link:hover{background:var(--navy2)}.map-link.apple{background:#f2f4f5;color:var(--navy);border:1px solid #cbd3d9}.map-link.apple:hover{background:#e6eaed}.map-frame{width:100%;height:380px;border:0;display:block;background:#e8edf0}
 @media(max-width:740px){.nav{padding:16px 0;align-items:flex-start;flex-direction:column}nav{gap:15px;flex-wrap:wrap;font-size:.86rem}.about,.contact-grid,.cards,.hero-layout{grid-template-columns:1fr}.hero-art{height:260px;order:-1;margin-top:25px}.gear-ring{width:205px;height:205px;border-width:13px}.gear-core{width:145px;height:145px}.gear-core span{font-size:4rem}.art-label{bottom:0;right:8%}.steps{grid-template-columns:1fr 1fr}.band-inner{align-items:flex-start;flex-direction:column}section{padding:60px 0}.hero{min-height:510px}.hero-content{padding:50px 0}.whatsapp-float{right:12px;bottom:12px;padding:11px 14px;font-size:.88rem}}@media(max-width:430px){.steps{grid-template-columns:1fr}.brand img{width:64px;height:64px}}
+/* Elementos visuales industriales - las imágenes son referenciales. */
+.hero{min-height:650px;background:linear-gradient(90deg,rgba(7,19,31,.97) 0%,rgba(7,19,31,.91) 29%,rgba(7,19,31,.68) 52%,rgba(7,19,31,.14) 100%),url("taller-mecanizado.webp") center / cover no-repeat}
+.hero:before{background-image:linear-gradient(90deg,transparent 66%,rgba(231,154,53,.12) 66.1%,transparent 66.3%);background-size:100% 100%;mask-image:none;pointer-events:none}
+.hero-layout{display:block;position:relative}
+.hero-content{max-width:700px;padding:114px 0 116px}
+.hero h1{max-width:700px;text-wrap:balance;text-shadow:0 3px 22px #07131f8a}
+.hero .eyebrow{display:inline-flex;align-items:center;gap:12px}
+.hero .eyebrow:before{content:"";width:34px;height:3px;background:var(--orange)}
+.hero-subline{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.hero-subline span{border:1px solid #ffffff4d;background:#07131f70;padding:6px 12px;border-radius:3px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;font-size:.74rem}
+.services .cards{gap:24px}
+.services .card{display:flex;flex-direction:column;overflow:hidden;padding:0;border-radius:8px;border-bottom:4px solid transparent}
+.services .card:hover{border-color:var(--orange)}
+.service-media{height:235px;background:#152d42;position:relative;overflow:hidden}
+.service-media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.services .card:hover .service-media img{transform:scale(1.065)}
+.service-media:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(9,24,38,.52),transparent 56%);pointer-events:none}
+.service-tag{position:absolute;left:20px;bottom:18px;color:#fff;font-weight:800;font-size:.75rem;letter-spacing:.13em;z-index:1;text-shadow:0 2px 7px #0008}
+.service-tag:before{content:"";display:inline-block;background:var(--orange);width:18px;height:3px;vertical-align:middle;margin-right:9px}
+.service-copy{padding:26px 28px 30px;flex:1}
+.service-copy h3{font-size:1.3rem;line-height:1.26;margin:0 0 12px;color:var(--navy)}
+.service-copy p{color:#586a78}
+.service-pattern{display:grid;place-items:center;background:radial-gradient(circle at 50% 50%,#35506a 0%,#142638 58%),linear-gradient(45deg,#e79a35,#142638)}
+.service-pattern:before{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff15 1px,transparent 1px),linear-gradient(90deg,#ffffff15 1px,transparent 1px);background-size:22px 22px}
+.pattern-emblem{position:relative;z-index:1;font-size:6rem;line-height:1;color:#e79a35;text-shadow:0 10px 30px #0008}
+.services-note{margin-top:19px;color:#687782;font-size:.84rem}
+@media(max-width:740px){.hero{min-height:540px;background-position:58% center;background-image:linear-gradient(90deg,rgba(7,19,31,.94),rgba(7,19,31,.78)),url("taller-mecanizado.webp")}.hero-content{padding:78px 0 82px}.service-media{height:220px}}
+@media(prefers-reduced-motion:reduce){.services .card,.service-media img{transition:none}.services .card:hover,.services .card:hover .service-media img{transform:none}}
+/* Galería de fotografías auténticas enviadas por la empresa */
+.work-gallery{background:#12283a;color:#fff}
+.work-gallery .head{max-width:790px}
+.work-gallery .head h2{color:#fff}
+.work-gallery .head p{color:#b9c9d5}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:195px;grid-auto-flow:dense;gap:15px}
+.gallery-tile{display:block;position:relative;min-width:0;overflow:hidden;border-radius:7px;background:#24394b;outline-offset:3px}
+.gallery-tile.featured{grid-column:span 2;grid-row:span 2}
+.gallery-tile.wide{grid-column:span 2}
+.gallery-tile img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .35s ease,filter .35s ease}
+.gallery-tile:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(0deg,rgba(6,18,29,.87),transparent);pointer-events:none}
+.gallery-tile:hover img{transform:scale(1.055);filter:brightness(1.08)}
+.gallery-label{position:absolute;bottom:17px;left:18px;right:14px;font-size:.88rem;font-weight:700;z-index:1;line-height:1.2;text-shadow:0 2px 5px #0006}
+.gallery-label:before{content:"";display:inline-block;width:15px;height:3px;vertical-align:middle;background:var(--orange);margin-right:9px}
+.gallery-footer{margin-top:20px;color:#c0cbd4;font-size:.9rem}
+@media(max-width:900px){.gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:170px;gap:9px}.gallery-tile.featured{grid-column:span 2;grid-row:span 2}.gallery-tile.wide{grid-column:span 2}.gallery-label{bottom:12px;left:12px;font-size:.8rem}}
+@media(max-width:385px){.gallery-grid{grid-template-columns:1fr;grid-auto-rows:220px}.gallery-tile.featured,.gallery-tile.wide{grid-column:auto;grid-row:auto}}
+@media(prefers-reduced-motion:reduce){.gallery-tile img{transition:none}.gallery-tile:hover img{transform:none}}
 </style>
 </head>
 <body>
 <header><div class="wrap nav">
 <a class="brand" href="#inicio"><img src="logo-franvar-original-foto.jpg" alt="Logotipo de Maestranza Franvar"><span>MAESTRANZA <b>FRANVAR</b></span></a>
-<nav><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></nav>
+<nav><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#trabajos">Trabajos</a><a href="#contacto">Contacto</a></nav>
 </div></header>
 <main>
 <section class="hero" id="inicio"><div class="wrap hero-layout"><div class="hero-content">
 <div class="eyebrow">Fabricación · Reparación · Soluciones hidráulicas</div>
 <h1>Soluciones industriales hechas para tu trabajo.</h1>
 <p>Fabricamos piezas según muestra y reparamos componentes mecánicos e hidráulicos para maquinaria y equipos industriales. Atención a los requerimientos de cada cliente.</p>
+<div class="hero-subline"><span>Piezas a medida</span><span>Hidráulica</span><span>Grúas horquilla</span></div>
 <div class="actions"><a class="btn primary" href="#contacto">Solicitar cotización</a><a class="btn outline" href="#servicios">Ver servicios</a></div>
-</div><div class="hero-art" aria-hidden="true"><div class="gear-ring"><div class="gear-core"><span>⚙</span></div></div><div class="art-label">Precisión · Fuerza · Soluciones</div></div></div></section>
+</div></div></section>
 <div class="trust-strip"><div class="wrap trust-items"><span><b>◆</b> Fabricación a medida</span><span><b>◆</b> Reparación industrial</span><span><b>◆</b> Soluciones hidráulicas</span></div></div>
 <section id="nosotros"><div class="wrap about">
 <div class="head"><div class="eyebrow">Quiénes somos</div><h2>Fabricación y reparación de piezas industriales</h2>
@@ -40,11 +88,42 @@ section{padding:78px 0}.head{max-width:720px;margin-bottom:36px}.head h2{font-si
 <section class="services" id="servicios"><div class="wrap">
 <div class="head"><div class="eyebrow">Qué hacemos</div><h2>Nuestros servicios</h2><p>Soluciones para componentes industriales, equipos hidráulicos y maquinaria de trabajo.</p></div>
 <div class="cards">
-<article class="card"><div class="service-icon" aria-hidden="true">⚙</div><div class="num">01 / FABRICACIÓN</div><h3>Piezas según muestra</h3><p>Fabricación de piezas a partir de una muestra o componente original, de acuerdo con las medidas y características requeridas.</p></article>
-<article class="card"><div class="service-icon" aria-hidden="true">▤</div><div class="num">02 / HIDRÁULICA</div><h3>Fabricación y reparación de botellas hidráulicas</h3><p>Trabajos de fabricación, reparación y mantenimiento de cilindros hidráulicos, según evaluación del componente.</p></article>
-<article class="card"><div class="service-icon" aria-hidden="true">▥</div><div class="num">03 / GRÚAS HORQUILLA</div><h3>Reparación de piezas de grúa horquilla</h3><p>Revisión y reparación de componentes de grúas horquilla, de acuerdo con el tipo de pieza y la falla presentada.</p></article>
-<article class="card"><div class="service-icon" aria-hidden="true">✣</div><div class="num">04 / TRABAJOS ESPECIALES</div><h3>Otros trabajos industriales</h3><p>Fabricación, adaptación y reparación de piezas y componentes para distintos requerimientos. Consulta por tu proyecto.</p></article>
-</div></div></section>
+<article class="card">
+  <div class="service-media"><img src="trabajo-piezas-mecanizadas.webp" alt="Piezas metálicas mecanizadas en el taller" loading="lazy"><span class="service-tag">01 / FABRICACIÓN</span></div>
+  <div class="service-copy"><h3>Piezas según muestra</h3><p>Fabricación de piezas a partir de una muestra o componente original, de acuerdo con las medidas y características requeridas.</p></div>
+</article>
+<article class="card">
+  <div class="service-media"><img src="trabajo-cilindros-amarillos.webp" alt="Cilindros hidráulicos pintados de amarillo en el taller" loading="lazy"><span class="service-tag">02 / HIDRÁULICA</span></div>
+  <div class="service-copy"><h3>Fabricación y reparación de botellas hidráulicas</h3><p>Trabajos de fabricación, reparación y mantenimiento de cilindros hidráulicos, según evaluación del componente.</p></div>
+</article>
+<article class="card">
+  <div class="service-media"><img src="reparacion-grua-horquilla.webp" alt="Mástil, cadenas y componentes mecánicos de una grúa horquilla" loading="lazy"><span class="service-tag">03 / GRÚAS HORQUILLA</span></div>
+  <div class="service-copy"><h3>Reparación de piezas de grúa horquilla</h3><p>Revisión y reparación de componentes de grúas horquilla, de acuerdo con el tipo de pieza y la falla presentada.</p></div>
+</article>
+<article class="card">
+  <div class="service-media"><img src="trabajo-engranajes-fabricados.webp" alt="Engranajes metálicos fabricados" loading="lazy"><span class="service-tag">04 / TRABAJOS ESPECIALES</span></div>
+  <div class="service-copy"><h3>Otros trabajos industriales</h3><p>Fabricación, adaptación y reparación de piezas y componentes para distintos requerimientos. Consulta por tu proyecto.</p></div>
+</article>
+</div><p class="services-note">Fotografías de piezas e hidráulica proporcionadas por FRANVAR. La imagen de grúa horquilla es ilustrativa.</p></div></section>
+
+<section class="work-gallery" id="trabajos"><div class="wrap">
+  <div class="head"><div class="eyebrow">Nuestro trabajo en imágenes</div><h2>Trabajos realizados</h2><p>Una muestra real de piezas mecanizadas, engranajes, trabajo en máquinas y componentes hidráulicos. Selecciona una fotografía para verla en tamaño completo.</p></div>
+  <div class="gallery-grid">
+    <a class="gallery-tile featured" href="trabajo-piezas-mecanizadas.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver piezas metálicas mecanizadas"><img src="trabajo-piezas-mecanizadas.webp" alt="Diversas piezas metálicas mecanizadas alineadas en una mesa" loading="lazy"><span class="gallery-label">Fabricación de piezas según muestra</span></a>
+    <a class="gallery-tile" href="trabajo-engranajes-fabricados.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver engranajes fabricados"><img src="trabajo-engranajes-fabricados.webp" alt="Dos engranajes metálicos dentro de una caja" loading="lazy"><span class="gallery-label">Engranajes</span></a>
+    <a class="gallery-tile" href="trabajo-pieza-roscada.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver pieza roscada"><img src="trabajo-pieza-roscada.webp" alt="Componente de acero con rosca interior mecanizada" loading="lazy"><span class="gallery-label">Roscados interiores</span></a>
+    <a class="gallery-tile" href="trabajo-torno-industrial.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver trabajo en torno industrial"><img src="trabajo-torno-industrial.webp" alt="Pieza circular de acero montada en torno" loading="lazy"><span class="gallery-label">Trabajo en torno</span></a>
+    <a class="gallery-tile" href="trabajo-barras-metalicas.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver barras metálicas"><img src="trabajo-barras-metalicas.webp" alt="Barras mecanizadas sobre mesa de máquina" loading="lazy"><span class="gallery-label">Barras y ejes</span></a>
+    <a class="gallery-tile" href="trabajo-torneado-metal.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver pieza en proceso de torneado"><img src="trabajo-torneado-metal.webp" alt="Pieza metálica montada en torno en proceso de mecanizado" loading="lazy"><span class="gallery-label">Torneado de precisión</span></a>
+    <a class="gallery-tile" href="trabajo-brida-metalica.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver brida metálica"><img src="trabajo-brida-metalica.webp" alt="Brida de acero mecanizada sobre una mesa" loading="lazy"><span class="gallery-label">Bridas metálicas</span></a>
+    <a class="gallery-tile" href="trabajo-eje-mecanico.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver eje mecánico"><img src="trabajo-eje-mecanico.webp" alt="Eje mecánico con engranajes apoyado sobre una máquina" loading="lazy"><span class="gallery-label">Componentes mecánicos</span></a>
+    <a class="gallery-tile wide" href="trabajo-cilindros-amarillos.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver cilindros hidráulicos"><img src="trabajo-cilindros-amarillos.webp" alt="Dos cilindros hidráulicos amarillos en el taller" loading="lazy"><span class="gallery-label">Botellas hidráulicas</span></a>
+    <a class="gallery-tile" href="trabajo-cilindros-hidraulicos.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver cilindros en taller"><img src="trabajo-cilindros-hidraulicos.webp" alt="Cilindros hidráulicos amarillos sobre estructuras metálicas" loading="lazy"><span class="gallery-label">Componentes hidráulicos</span></a>
+    <a class="gallery-tile" href="trabajo-engranaje-mano.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver engranaje de repuesto"><img src="trabajo-engranaje-mano.webp" alt="Engranaje metálico pequeño sostenido con un guante" loading="lazy"><span class="gallery-label">Piezas de repuesto</span></a>
+    <a class="gallery-tile" href="trabajo-pares-engranajes.webp" target="_blank" rel="noopener noreferrer" aria-label="Ver par de engranajes"><img src="trabajo-pares-engranajes.webp" alt="Dos engranajes cónicos metálicos sobre una mesa" loading="lazy"><span class="gallery-label">Engranajes mecanizados</span></a>
+  </div>
+  <p class="gallery-footer">Fotografías reales de piezas y trabajos compartidas por Maestranza Franvar.</p>
+</div></section>
 
 <section class="process" id="proceso"><div class="wrap">
 <div class="head"><div class="eyebrow">Cómo trabajamos</div><h2>De tu necesidad a la solución</h2><p>Un proceso claro para evaluar cada pieza y orientar el trabajo.</p></div>
