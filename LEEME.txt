@@ -1,0 +1,31 @@
+MAESTRANZA FRANVAR - PAGINA WEB
+
+La pagina ya contiene:
+- Nombre: MAESTRANZA FRANVAR
+- Direccion: Calle Rancagua 316, San Fernando, Chile
+- Telefono / WhatsApp: +56 9 9980 6856
+- Correo: franciscoe.vargas@gmail.com
+- Horario: lunes y martes 08:00 a 18:00; miercoles a viernes hasta las 17:00
+- Servicios: fabricacion de piezas segun muestra; fabricacion y reparacion de botellas/cilindros hidraulicos; reparacion de piezas de grua horquilla; otros trabajos industriales.
+
+Para revisar:
+1. Descomprime el ZIP.
+2. Abre index.html en Chrome, Edge o Firefox.
+
+Para editar:
+Abre index.html con Bloc de notas o Visual Studio Code.
+
+Publicar gratis con GitHub Pages:
+1. Crea una cuenta en https://github.com/
+2. Crea un repositorio publico llamado usuario.github.io (reemplaza usuario por tu usuario).
+3. Sube index.html a la raiz del repositorio.
+4. En Settings > Pages, selecciona Deploy from a branch, rama main y carpeta /(root).
+5. Tu sitio se publicara en https://usuario.github.io
+
+Nota: el formulario de consulta usa mailto y abre la aplicacion de correo del visitante. El enlace de WhatsApp abre una conversacion con el numero indicado.
+
+LOGOTIPO
+- El archivo logo-franvar.jpg contiene el logotipo recortado de la tarjeta que compartiste.
+- Mantén logo-franvar.jpg en la misma carpeta que index.html para que aparezca en la web.
+
+LOGOTIPO: Se utiliza el recorte directo del emblema de la foto original, sin redibujarlo ni retocarlo. Mantén logo-franvar-original-foto.jpg junto a index.html.
