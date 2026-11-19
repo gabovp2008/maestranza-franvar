@@ -15,6 +15,7 @@ section{padding:78px 0}.head{max-width:720px;margin-bottom:36px}.head h2{font-si
 .band{background:var(--navy2);color:white;padding:54px 0}.band-inner{display:flex;align-items:center;justify-content:space-between;gap:28px}.band h2{font-size:clamp(1.6rem,3vw,2.3rem);line-height:1.2;max-width:700px}
 .process{background:#fff}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{padding:22px 18px;border:1px solid #e3e8eb;border-radius:6px;background:#fff}.step strong{display:block;color:var(--navy);margin:9px 0 4px}.step .step-no{font-size:.8rem;color:var(--orange);font-weight:800;letter-spacing:.12em}.step p{font-size:.9rem;color:#687782}.contact{background:#f7f8f9}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px}.info{background:var(--navy);color:white;padding:32px;border-radius:5px}.info h3{font-size:1.4rem;margin-bottom:14px}.info p{margin:12px 0;color:#dce3e8;overflow-wrap:anywhere}.form{display:grid;gap:14px}.form label{font-weight:700;color:var(--navy);font-size:.92rem}.form input,.form textarea{width:100%;padding:13px;border:1px solid #cbd3d9;border-radius:4px;font:inherit;margin-top:5px}.form textarea{min-height:120px;resize:vertical}.form button{border:0;cursor:pointer;font:inherit}.form small{color:#687782}
 .whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:8;background:#1fa855;color:white;padding:13px 18px;border-radius:999px;font-weight:700;box-shadow:0 8px 24px #0003;display:flex;align-items:center;gap:9px}.whatsapp-float:hover{transform:translateY(-3px);background:#168b45}.trust-strip{background:#142638;color:white;padding:20px 0}.trust-items{display:flex;justify-content:center;gap:35px;flex-wrap:wrap}.trust-items span{font-size:.9rem;font-weight:700;letter-spacing:.04em}.trust-items b{color:var(--orange);margin-right:7px}footer{background:#0d1c29;color:#bdc7ce;padding:24px 0;font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.location-map{margin-top:42px;background:#fff;border:1px solid #dce3e8;border-radius:8px;overflow:hidden;box-shadow:0 10px 30px #14263812}.location-map-header{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;padding:24px 28px}.location-map-header h3{color:var(--navy);font-size:1.35rem;line-height:1.25}.location-map-header p{color:#657581;margin-top:4px}.map-links{display:flex;gap:10px;flex-wrap:wrap}.map-link{display:inline-block;padding:10px 16px;background:var(--navy);color:#fff;border-radius:4px;font-weight:700;font-size:.9rem}.map-link:hover{background:var(--navy2)}.map-link.apple{background:#f2f4f5;color:var(--navy);border:1px solid #cbd3d9}.map-link.apple:hover{background:#e6eaed}.map-frame{width:100%;height:380px;border:0;display:block;background:#e8edf0}
 @media(max-width:740px){.nav{padding:16px 0;align-items:flex-start;flex-direction:column}nav{gap:15px;flex-wrap:wrap;font-size:.86rem}.about,.contact-grid,.cards,.hero-layout{grid-template-columns:1fr}.hero-art{height:260px;order:-1;margin-top:25px}.gear-ring{width:205px;height:205px;border-width:13px}.gear-core{width:145px;height:145px}.gear-core span{font-size:4rem}.art-label{bottom:0;right:8%}.steps{grid-template-columns:1fr 1fr}.band-inner{align-items:flex-start;flex-direction:column}section{padding:60px 0}.hero{min-height:510px}.hero-content{padding:50px 0}.whatsapp-float{right:12px;bottom:12px;padding:11px 14px;font-size:.88rem}}@media(max-width:430px){.steps{grid-template-columns:1fr}.brand img{width:64px;height:64px}}
 </style>
 </head>
@@ -70,7 +71,18 @@ section{padding:78px 0}.head{max-width:720px;margin-bottom:36px}.head h2{font-si
 <button class="btn primary" type="submit">Enviar solicitud de cotización</button>
 <small>Al enviar, tus datos y consulta se entregarán a Maestranza Franvar mediante FormSubmit. La primera vez, el propietario deberá activar el formulario desde su correo.</small>
 </form>
-</div></div></section>
+</div>
+<div class="location-map" id="ubicacion">
+  <div class="location-map-header">
+    <div><h3>Encuentra nuestro taller</h3><p>Calle Rancagua 316, San Fernando, Chile</p></div>
+    <div class="map-links">
+      <a class="map-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle%20Rancagua%20316%2C%20San%20Fernando%2C%20Chile" target="_blank" rel="noopener noreferrer">Cómo llegar · Google Maps</a>
+      <a class="map-link apple" href="https://maps.apple.com/?q=Calle%20Rancagua%20316%2C%20San%20Fernando%2C%20Chile" target="_blank" rel="noopener noreferrer">Abrir en Apple Maps</a>
+    </div>
+  </div>
+  <iframe class="map-frame" title="Mapa de Calle Rancagua 316 en San Fernando" src="https://www.google.com/maps?q=Calle%20Rancagua%20316%2C%20San%20Fernando%2C%20Chile&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+</div>
+</div></section>
 </main>
 <a class="whatsapp-float" href="https://wa.me/56999806856" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">◉ WhatsApp</a>
 <footer><div class="wrap foot"><span>© <span id="year"></span> MAESTRANZA FRANVAR. Todos los derechos reservados.</span><span>Fabricación y reparación industrial</span></div></footer>
